@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HZC | Home</title>
+    <title>HZC | Picos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
@@ -20,22 +20,17 @@
     </header>
     <nav class="menu-lateral">
         <img src="img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
-        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio ">Início</a>
+        <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
         <a href="#" class="menu-lateral__link menu-lateral__link--videos">Vídeos</a>
-        <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos
-        menu-lateral__link--ativo">Picos</a>
+        <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos menu-lateral__link--ativo">Picos</a>
         <a href="#" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
         <a href="#" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
         <a href="#" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
     </nav>
-    <main class="principal">
+    <main class="principal principal--picos">
         <h2 class="titulo-pagina">Picos</h2>
-        <article class="cartao1 cartao--destaque destaque-video">
-            <img src="img/mapa-picos.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--mobile">
-            <img src="img/mapa-picos.png" alt="Banner do cartao" class="cartao__imagem cartao__imagem--desktop">
-            
-        </article>
-        <article class="cartao cartao--recentes videos-recentes">
+        <article class="cartao picos-mapa" aria-label="Mapa dos picos favoritos"></article>
+        <article class="cartao cartao--recentes picos-favoritos">
             <h3 class="cartao__titulo">Favoritos</h3>
             <a href="#" class="cartao__link">Ver todos</a>
             <ul class="cartao__lista">
@@ -45,18 +40,18 @@
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
+                    <img src="img/miniatura_3.2.png" alt="Thumbnail" class="cartao__item-thumbnail">
+                    <h4 class="cartao__item-titulo">Borda de valores</h4>
+                    <p class="cartao__item-perfil">Júlia Fonseca</p>
+                </li>
+                <li class="cartao__item">
                     <img src="img/miniatura_3.3.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Borda da Valores</h4>
+                    <h4 class="cartao__item-titulo">Wallride do Rebouças</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
                     <img src="img/miniatura_3.4.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Wallridedo Rebouças</h4>
-                    <p class="cartao__item-perfil">Júlia Fonseca</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="img/miniatura_3.2.png" alt="Thumbnail" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Segundo setor da Praça Mauá</h4>
+                    <h4 class="cartao__item-titulo">Segundo setor da praça Mauá</h4>
                     <p class="cartao__item-perfil">Júlia Fonseca</p>
                 </li>
                 <li class="cartao__item">
@@ -66,46 +61,46 @@
                 </li>
             </ul>
         </article>
-        <section class="secao secao-videos">
+        <section class="secao secao-picos-mais-visitados">
             <h3 class="titulo-secao">Mais visitados</h3>
             <article class="cartao">
                 <img src="img/artigo_1.png" alt="Vídeo" class="cartao__imagem">
                 <div class="cartao__conteudo">
-                    <p class="cartao__perfil">André Soares</p>
+                    <p class="cartao__perfil">Bruno Lopes</p>
                     <h3 class="cartao__titulo">Gap do Itaú da Voluntários da Pátria</h3>
-                    <p class="cartao__info cartao__info--visualizacao">90 visualizações</p>
-                    <button class="cartao__botao cartao__botao--picos" aria-label="Assistir agora"></button>
+                    <p class="cartao__info cartao__info--visualizacao">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--pico" aria-label="Visualizar no maps"></button>
                 </div>
             </article>
             <article class="cartao">
                 <img src="img/artigo_gap.png" alt="Vídeo" class="cartao__imagem">
                 <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Bruno Lopez</p>
-                    <h3 class="cartao__titulo">Gap com Mureta da Voluntários</h3>
-                    <p class="cartao__info cartao__info--visualizacao">81 visualizações</p>
-                    <button class="cartao__botao cartao__botao--picos" aria-label="Assistir agora"></button>
+                    <p class="cartao__perfil">Luiza Sampaio</p>
+                    <h3 class="cartao__titulo">Gap com mureta da Voluntários</h3>
+                    <p class="cartao__info cartao__info--visualizacao">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--pico" aria-label="Visualizar no maps"></button>
                 </div>
             </article>
             <article class="cartao">
                 <img src="img/artigo_rampa.png" alt="Vídeo" class="cartao__imagem">
                 <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Luiza Sampaio</p>
-                    <h3 class="cartao__titulo">Rampa da entrada do túnel Rebouças</h3>
-                    <p class="cartao__info cartao__info--visualizacao">59 visualizações</p>
-                    <button class="cartao__botao cartao__botao--picos" aria-label="Assistir agora"></button>
+                    <p class="cartao__perfil">André Soares</p>
+                    <h3 class="cartao__titulo">Rampa de entrada do túnel Rebouças</h3>
+                    <p class="cartao__info cartao__info--visualizacao">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--pico" aria-label="Visualizar no maps"></button>
                 </div>
             </article>
             <article class="cartao">
                 <img src="img/artigo_FGP.png" alt="Vídeo" class="cartao__imagem">
                 <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Bruno Lopez</p>
-                    <h3 class="cartao__titulo">Wallride de Pedra Portuguesa da FGP</h3>
-                    <p class="cartao__info cartao__info--visualizacao">56 visualizações</p>
-                    <button class="cartao__botao cartao__botao--picos" aria-label="Assistir agora"></button>
+                    <p class="cartao__perfil">Júlia Fonseca</p>
+                    <h3 class="cartao__titulo">Wallride de pedra portuguesa da FGP</h3>
+                    <p class="cartao__info cartao__info--visualizacao">53 visualizações</p>
+                    <button class="cartao__botao cartao__botao--pico" aria-label="Visualizar no maps"></button>
                 </div>
             </article>
         </section>
-
-        <script src="index.js"></script>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
