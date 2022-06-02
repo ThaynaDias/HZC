@@ -234,6 +234,13 @@ body {
     background-color: #2C343A;
 }
 
+.cartao1 {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+
 .cartao__imagem--desktop {
     display: none;
 }
@@ -305,6 +312,11 @@ body {
 
 .cartao__botao--play::before {
     content: "\e90b";
+    font-size: 24px;
+}
+
+.cartao__botao--picos::before {
+    content: "\e909";
     font-size: 24px;
 }
 
